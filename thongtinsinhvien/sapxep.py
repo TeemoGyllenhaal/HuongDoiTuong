@@ -6,7 +6,11 @@ print(x)
 x = sorted(x, reverse = True)
 print(x)
 def main():
-    sv = [SinhVien('Lê Quý Minh Quang',2004,10),SinhVien('Lê Hoàng Minh Quý',2004,9),SinhVien('Lê Văn Đạt',1999,100),SinhVien('Lê Văn Thân',1999,150),SinhVien('Lê Văn Nghĩa',1989,200)]
+    sv = [SinhVien('Lê Quý Minh Quang',2004,10),
+          SinhVien('Lê Hoàng Minh Quý',2004,9),
+          SinhVien('Lê Văn Đạt',1999,100),
+          SinhVien('Lê Văn Thân',1999,150),
+          SinhVien('Lê Văn Nghĩa',1989,200)]
     sv = sorted (sv)
     for item in sv:
         print(item)
