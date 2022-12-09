@@ -7,6 +7,7 @@ class SinhVien:
         message = '[hoten: '+ self.hoten +'; namsinh: '+ str(self.namsinh)+'; dtb: '+ str(self.dtb) +']'
         return message
 def main():
+    #Nhập thông tin 
     sv1 = SinhVien('Lê Quý Minh Quang',2004,10)
     sv2 = SinhVien('Lê Hoàng Minh Quý',2004,9)
     print(sv1)
