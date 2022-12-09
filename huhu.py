@@ -1,4 +1,3 @@
-#h
 class SinhVien:
     def __init__(self,fullname,age,score):
         self.hoten = fullname
