@@ -1,5 +1,5 @@
 from student import SinhVien
-
+#Các lệnh sắp xếp
 x = [-1,-5,-9,8,3,4,2]
 x = sorted(x)
 print(x)
@@ -11,7 +11,12 @@ def main():
           SinhVien('Lê Văn Đạt',1999,100),
           SinhVien('Lê Văn Thân',1999,150),
           SinhVien('Lê Văn Nghĩa',1989,200)]
+    #Sắp xếp tăng dần
     sv = sorted (sv)
+    for item in sv:
+        print(item)
+    #Sắp xếp giảm dần
+    sv = sorted (sv,reverse = True)
     for item in sv:
         print(item)
 if __name__ == '__main__':
