@@ -1,4 +1,4 @@
-from Student import SinhVien
+from student import SinhVien
 def main():
     sv = [SinhVien('Lê Quý Minh Quang',2004,10),SinhVien('Lê Hoàng Minh Quý',2004,9),SinhVien('Lê Văn Đạt',1999,100)]
     for item in sv:
