@@ -6,11 +6,13 @@ class SinhVien:
     def __str__(self):
         message = '[hoten: '+ self.hoten +'; namsinh: '+ str(self.namsinh)+'; dtb: '+ str(self.dtb) +']'
         return message
-def main():
-    #Nhập thông tin 
-    sv1 = SinhVien('Lê Quý Minh Quang',2004,10)
-    sv2 = SinhVien('Lê Hoàng Minh Quý',2004,9)
-    print(sv1)
-    print(sv2)
-if __name__ == '__main__':
-    main()
+    def __gt__(self,obj):
+        return (self.dtb>obj.dtb)
+    def __ge__(self,obj):
+        return (self.dtb>=obj.dtb)
+    def __lt__(self,obj):
+        return (self.dtb<obj.dtb)
+    def __le__(self,obj):
+        return (self.dtb<=obj.dtb)
+    def __eq__(self,obj):
+        return (self.dtb==obj.dtb)
